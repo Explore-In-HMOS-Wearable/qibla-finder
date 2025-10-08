@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="2000" viewBox="0 0 2000 2000">
+    <g transform="translate(0,200)">
+        <polygon points="
+          1000,20
+          1069.282,60
+          1069.282,140
+          1000,180
+          930.718,140
+          930.718,60
+        " fill="#000000" stroke="#ffffff" stroke-width="10" />
+
+        <polygon points="
+          1000,35
+          1050,65
+          1000,95
+          950,65
+        " fill="#ffffff" />
+
+        <polygon points="
+          950,90
+          1000,120
+          1050,90
+          1000,120
+        " fill="none" stroke="#ffffff" stroke-width="8" />
+    </g>
+</svg>
