@@ -1,4 +1,4 @@
-import { sensor } from "@kit.SensorServiceKit";
+import { sensor } from '@kit.SensorServiceKit';
 import { geoLocationManager } from '@kit.LocationKit';
 
 const screenSize: number = 466
@@ -106,9 +106,8 @@ struct Index {
           .rotate({ angle: (this.qiblaBearing - this.azimuth + 360) % 360 })
 
         Image(
-          this.bearingDiff(this.azimuth, this.qiblaBearing) <= 5
-            ? $r('app.media.compass_needle_green')
-            : $r('app.media.compass_needle_red')
+          this.bearingDiff(this.azimuth, this.qiblaBearing) <= 5 ? $r('app.media.compass_needle_green') :
+            $r('app.media.compass_needle_red')
         )
       }
       .width('100%')
